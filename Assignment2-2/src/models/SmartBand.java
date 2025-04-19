@@ -2,7 +2,7 @@ package models;
 
 import utils.Utilities;
 
-public class SmartBand extends WereableDevice{
+public class SmartBand extends WearableDevice{
  private boolean hasHeartRateMonitor;
  public SmartBand(String modelName,double price,Manufacturer manufacturer,String id,String material,String size,boolean hasHeartRateMonitor)
  {

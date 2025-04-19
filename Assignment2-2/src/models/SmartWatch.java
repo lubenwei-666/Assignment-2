@@ -2,7 +2,7 @@ package models;
 
 import utils.Utilities;
 
-public class SmartWatch extends WereableDevice{
+public class SmartWatch extends WearableDevice{
     private String displayType = "LCD";
 
     public SmartWatch(String modelName,double price,Manufacturer manufacturer,String id,String material,String size,String displayType)
